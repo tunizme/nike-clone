@@ -20,12 +20,17 @@ a {
 .mt-60 {
   margin-top: 60px;
 }
+
+.mb-40 {
+  margin-bottom: 100px;
+}
+
 .p-60 {
   padding: 0 48px;
 }
 
 body {
-  background: #efe4e4;
+  background: white;
 }
 
 .topbar {
@@ -48,7 +53,7 @@ body {
 
 .menu {
   display: flex;
-  background-color: aliceblue;
+  background-color: #efe4e4;
   height: 60px;
   justify-content: space-between;
   align-items: center;
@@ -166,4 +171,44 @@ body {
   font-weight: 500;
   margin: 20px 0;
   text-decoration: underline;
+}
+.footer {
+  background: white!important;
+  margin-top: 60px;
+}
+
+.line {
+  width: 100%;
+  height: 0.1px;
+  background: black;
+}
+
+.footer-menu {
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns: auto auto auto auto;
+  padding: 40px 0;
+}
+
+.header-first-box {
+  font-weight: 500;
+}
+.child1 {  font-weight: 500; color: gray;}
+.child2 { font-weight: 500; color: gray;}
+.child3 { font-weight: 500; color: gray;}
+.child4 { font-weight: 500; color: gray;}
+.child5 { font-weight: 500; color: gray;}
+.child6 { font-weight: 500; color: gray;}
+.global div{
+  display: flex; 
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.sub-footer ul{
+ display: flex;
+ padding-bottom: 50px;
+}
+.sub-footer li{
+  margin-right: 40px;
 }
